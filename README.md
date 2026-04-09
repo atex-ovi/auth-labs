@@ -6,12 +6,11 @@ Important Note: AuthLabs is a front-end simulation only. This is a UI/UX demonst
 
 ## Preview
 
-<table align="center">
-  <tr>
-    <td align="center"><img src="media/login.jpg" alt="Login Page" width="100%"><br>Login Page</td>
-    <td align="center"><img src="media/register.jpg" alt="Register Page" width="100%"><br>Register Page</td>
-  </tr>
-</table>
+<div align="center">
+  <img src="media/login.jpg" alt="Login Page" width="250">
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="media/register.jpg" alt="Register Page" width="250">
+</div>
 
 ---
 
