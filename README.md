@@ -176,21 +176,8 @@ fetch('/api/login', {
 
 ---
 
-## Browser Support
-
-| Browser | Version | Status |
-|---------|---------|--------|
-| Chrome | Latest | Supported |
-| Firefox | Latest | Supported |
-| Safari | Latest | Supported |
-| Edge | Latest | Supported |
-| Opera | Latest | Supported |
-
----
-
-## Disclaimer
-
-This project is for demonstration and learning purposes only. It is not intended for production use without proper backend implementation and security measures.
+> [!CAUTION]
+> This project is for demonstration and learning purposes only. It is not intended for production use without proper backend implementation and security measures.
 
 ---
 
