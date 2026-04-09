@@ -6,7 +6,7 @@ Important Note: AuthLabs is a front-end simulation only. This is a UI/UX demonst
 
 ## Preview
 
-<video src="media/al.mp4" controls width="100%"></video>
+<video src="media/demo.gif" controls width="100%"></video>
 
 ---
 
