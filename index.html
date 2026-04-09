@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AuthLabs | Modern Login & Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gradient-bg"></div>
+    <canvas id="particlesCanvas"></canvas>
+
+    <div class="container">
+        <div class="glass-card">
+            <div class="brand">
+                <div class="logo">
+                    <i class="fas fa-bolt"></i>
+                </div>
+                <h3>AuthLabs</h3>
+            </div>
+
+            <div class="toggle-buttons">
+                <button class="toggle-btn active" id="loginToggle">
+                    <i class="fas fa-key"></i>
+                    <span>Login</span>
+                </button>
+                <button class="toggle-btn" id="registerToggle">
+                    <i class="fas fa-user-plus"></i>
+                    <span>Register</span>
+                </button>
+            </div>
+
+            <form id="loginForm" class="form active">
+                <h2>Welcome Back</h2>
+                <p class="subtitle">Login to continue your journey</p>
+                
+                <div class="input-group">
+                    <i class="fas fa-envelope input-icon"></i>
+                    <input type="email" id="loginEmail" required autocomplete="off">
+                    <label>Email Address</label>
+                    <div class="input-border"></div>
+                </div>
+
+                <div class="input-group">
+                    <i class="fas fa-lock input-icon"></i>
+                    <input type="password" id="loginPassword" required>
+                    <label>Password</label>
+                    <button type="button" class="toggle-password" data-target="loginPassword">
+                        <i class="far fa-eye"></i>
+                    </button>
+                    <div class="input-border"></div>
+                </div>
+
+                <div class="options">
+                    <label class="checkbox">
+                        <input type="checkbox">
+                        <i class="far fa-square"></i>
+                        <i class="fas fa-check-square"></i>
+                        <span>Remember me</span>
+                    </label>
+                    <a href="#" class="forgot">Forgot password?</a>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-arrow-right"></i>
+                    <span>Sign In</span>
+                </button>
+                
+                <div class="divider">
+                    <span>Or continue with</span>
+                </div>
+
+                <div class="social-buttons">
+                    <button type="button" class="social-btn google">
+                        <i class="fab fa-google"></i>
+                    </button>
+                    <button type="button" class="social-btn github">
+                        <i class="fab fa-github"></i>
+                    </button>
+                    <button type="button" class="social-btn discord">
+                        <i class="fab fa-discord"></i>
+                    </button>
+                </div>
+            </form>
+
+            <form id="registerForm" class="form">
+                <h2>Create Account</h2>
+                <p class="subtitle">Join us and start your adventure</p>
+
+                <div class="input-group">
+                    <i class="fas fa-user input-icon"></i>
+                    <input type="text" id="regName" required autocomplete="off">
+                    <label>Full Name</label>
+                    <div class="input-border"></div>
+                </div>
+
+                <div class="input-group">
+                    <i class="fas fa-envelope input-icon"></i>
+                    <input type="email" id="regEmail" required autocomplete="off">
+                    <label>Email Address</label>
+                    <div class="input-border"></div>
+                </div>
+
+                <div class="input-group">
+                    <i class="fas fa-lock input-icon"></i>
+                    <input type="password" id="regPassword" required>
+                    <label>Password</label>
+                    <button type="button" class="toggle-password" data-target="regPassword">
+                        <i class="far fa-eye"></i>
+                    </button>
+                    <div class="input-border"></div>
+                </div>
+
+                <div class="input-group">
+                    <i class="fas fa-check-circle input-icon"></i>
+                    <input type="password" id="regConfirm" required>
+                    <label>Confirm Password</label>
+                    <div class="input-border"></div>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <i class="fas fa-rocket"></i>
+                    <span>Create Account</span>
+                </button>
+
+                <div class="divider">
+                    <span>Or sign up with</span>
+                </div>
+
+                <div class="social-buttons">
+                    <button type="button" class="social-btn google">
+                        <i class="fab fa-google"></i>
+                    </button>
+                    <button type="button" class="social-btn github">
+                        <i class="fab fa-github"></i>
+                    </button>
+                    <button type="button" class="social-btn discord">
+                        <i class="fab fa-discord"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
