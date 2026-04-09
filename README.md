@@ -9,9 +9,10 @@
 
 # AuthLabs - Modern Login & Register Pages
 
-A beautiful, glassmorphism-style login and registration interface with smooth animations and responsive design.
+**A beautiful, glassmorphism-style login and registration interface with smooth animations and responsive design.**
 
-Important Note: AuthLabs is a front-end simulation only. This is a UI/UX demonstration project, not a fully functional authentication system. For real-world integration, you need to implement backend logic and database connectivity.
+> [!IMPORTANT]
+> AuthLabs is a front-end simulation only. This is a UI/UX demonstration project, not a fully functional authentication system. For real-world integration, you need to implement backend logic and database connectivity.
 
 ## Preview
 
