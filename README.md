@@ -14,8 +14,6 @@
 > [!IMPORTANT]
 > AuthLabs is a front-end simulation only. This is a UI/UX demonstration project, not a fully functional authentication system. For real-world integration, you need to implement backend logic and database connectivity.
 
-## Preview
-
 <div align="center">
   <img src="media/login.jpg" alt="Login Page" width="250">
   &nbsp;&nbsp;&nbsp;&nbsp;
