@@ -4,6 +4,10 @@ A beautiful, glassmorphism-style login and registration interface with smooth an
 
 Important Note: AuthLabs is a front-end simulation only. This is a UI/UX demonstration project, not a fully functional authentication system. For real-world integration, you need to implement backend logic and database connectivity.
 
+## Preview
+
+<video src="media/al.mp4" controls width="100%"></video>
+
 ---
 
 ## Features
@@ -46,14 +50,18 @@ To preview this project locally, you can use any static server:
 ### Option 2: Python HTTP Server
 
 Python 3
+```bash
 python -m http.server 8080
+```
 
 Then open: http://localhost:8080
 
 ### Option 3: Node.js (http-server)
 
+```bash
 npm install -g http-server
 http-server -p 8080
+```
 
 Then open: http://localhost:8080
 
@@ -69,11 +77,12 @@ php -S localhost:8080
 
 ## File Structure
 
+```
 auth-labs/
 ├── index.html
 ├── style.css
-├── script.js
-└── README.md
+└── script.js
+```
 
 ---
 
@@ -111,6 +120,7 @@ To make this fully functional, you need to:
 
 ### Example API Structure
 
+```javascript
 fetch('/api/login', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
@@ -124,6 +134,7 @@ fetch('/api/login', {
         showToast(data.message, true);
     }
 });
+```
 
 ---
 
@@ -171,4 +182,4 @@ This project is for demonstration and learning purposes only. It is not intended
 
 ## License
 
-MIT License
+[MIT](./LICENSE.md)
